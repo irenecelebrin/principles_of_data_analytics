@@ -1,2 +1,7 @@
-# principles_of_data_analytics
+# Principles of Data Analytics 
+
 Assignments and tasks for Principles of Data Analytics 
+
+## Inside this repo
+
+So far nothing 
