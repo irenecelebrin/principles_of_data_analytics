@@ -6,6 +6,7 @@ Assignments and tasks for Principles of Data Analytics
 
 ### Task 1: source the data set 
 ### Task 2: explore the data structure
+### Task 3: summarize the data 
 
 
 #### Extra: Some shortcuts 
