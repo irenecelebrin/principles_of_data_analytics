@@ -1,3 +1,5 @@
 sklearn
 numpy
 matplotlib.pyplot
+pandas
+matplotlib.lines
