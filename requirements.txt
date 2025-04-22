@@ -1,5 +1,4 @@
-sklearn
+scikit-learn
 numpy
-matplotlib.pyplot
+matplotlib
 pandas
-matplotlib.lines
