@@ -41,6 +41,12 @@ All the tasks are included in the Notebook [tasks.ipynb](/workspaces/principles_
 ### Task 3: summarize the data 
 
 
+# References
+
+task 9: [Writing Mathematic Fomulars in Markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)
+
+
+
 #### Extra: Some shortcuts to run the notebooks on Jupyter notebooks 
 
 **Some shortcuts**
