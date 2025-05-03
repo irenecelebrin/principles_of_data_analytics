@@ -7,7 +7,7 @@ Course project for Principles of Data Analytics - Higher Diploma in Science in C
 ### The project 
 
 This project was started in February 2025 as part of the course *Principles of Data Analytics*. 
-It includes sourcing and manipulating the Iris dataset from the [UCI Machine Learning reporsitory](https://archive.ics.uci.edu/dataset/53/iris). 
+It includes sourcing and manipulating the Iris dataset from the [UCI Machine Learning repository](https://archive.ics.uci.edu/dataset/53/iris). 
 
 The dataset is explored and manipulated to extract meaningful data and represent them grafically through plots and charts. 
 
@@ -15,12 +15,12 @@ The dataset is explored and manipulated to extract meaningful data and represent
 
 **Getting started**
 
-Pyhton: This projects was developed using Python 3.12 inside Jupyter Notebooks. It can be run in a codespace environment, or locally with Jupiter Notebooks. 
+Pyhton: This projects was developed using Python 3.12 inside Jupyter Notebooks. It can be run in a virtual environment, or locally with Anaconda (Jupiter Notebooks). 
 
 **Libraries** 
 
 In the notebook, a number of external libraries are used: these libraries are listed in the file requirements.txt. 
-If the notebook is run locally and not in an online enviroment, these libraries need to be installed. 
+If the notebook is run locally and not in an virtual enviroment/Anaconda, these libraries need to be installed. 
 - To install all the required libraries at once, run the command 'pip install -r requirements.txt' in your terminal. 
 - To install the libraries individually, run the code 'pip install *module name*'.
 
@@ -29,33 +29,33 @@ If the notebook is run locally and not in an online enviroment, these libraries 
 All the tasks are included in the Notebook [tasks.ipynb](/workspaces/principles_of_data_analytics/tasks.ipynb) in this repository. 
 
 ### Task 1: Source the dataset 
-Loading the dataset and introducing it 
+Loading the dataset and introducing it.
 ### Task 2: Explore the data structure
-Exploring the dataset features, targets (classes) and other information through scikit-learn and pandas
+Exploring the dataset features, targets (classes) and other information through scikit-learn and pandas.
 ### Task 3: Summarize the data 
-Using NumPy to calculate Minimum, Maximum, Mean, Meadiand and Standard deviation for each feature. 
+Using NumPy to calculate Minimum, Maximum, Mean, Meadian and Standard deviation for each feature. 
 ### Task 4: Visualize features
-Plot histograms for each feature and highlight trends. 
+Plotting histograms for each feature and highlight trends. 
 
-Extra: plot all histograms togther to compare features, and plot boxplots for each feature to observe feature variation. 
+Extra: plotting all histograms togther to compare features, and plotting boxplots for each feature to observe feature variation. 
 ### Task 5: Investigate relationships 
-Plot a scatter plot to investigate the correlation between two features: Petal length and Petal width. Each class is represented with a different color, to highlight class-specific trends. 
+Plotting a scatter plot to investigate the correlation between two features: Petal length and Petal width. Each class is represented with a different color, to highlight class-specific trends. 
 ### Task 6: Analyze relationships 
-Use numpy.polyfit to fit a line in the data and highlight the correlation between Petal length and Petal width. This includes calculating the values of slope and intercept of the ideal line. 
+Fitting a line in the data to highlight the correlation between Petal length and Petal width. Using numpy.polyfit to calculate the values of slope and intercept of the ideal line, and calculate simple linear regression. 
 ### Task 7: Analyze class distribution 
-Plot boxplots to represent Petal length in each class of the dataset. 
+Plotting boxplots to represent Petal length in each class of the dataset. 
 ### Task 8: Compute correlations 
-Calculate Pearson's Correlation Coefficient for each feature pair and plot the data in a heatmap, to highlight wheter features have a positive or negative correlation. 
+Calculating Pearson's Correlation Coefficient for each feature pair and plotting the data in a heatmap to highlight wether features have a positive or negative correlation. 
 ### Task 9: Fit a simple linear regression 
-Use SciPy to calculate the coefficient of Determination between Petal length and petal width, slope and intercept values. Fit a line on the scatter plot based on these values. 
+Using SciPy to calculate the coefficient of Determination between Petal length and Petal width, in addition to slope and intercept values. Fitting a line on the scatter plot based on these values. 
 ### Task 10: Too many features
-Plot a pairplot with Seaborn to represent the correlation that each feature has with the other features, highlighting class distribution. Drawing some conclusions on the dataset. 
+Plotting a pairplot with Seaborn to represent the correlation that each feature has with the other features, highlighting class distribution. Drawing some conclusions on the dataset. 
 
 
 
-# References
+## References
 
-Libraries: 
+#### Libraries: 
 
 [Sklearn](https://scikit-learn.org/stable/) to source the dataset 
 
@@ -68,12 +68,19 @@ Libraries:
 [Matplotlib](https://matplotlib.org/) to plot the data
 
 [Seaborn](https://seaborn.pydata.org/index.html) to plot the data 
+#### Task 1: 
 
-Task 2: 
+[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris)
+
+#### Task 2: 
 
 [load_iris](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
 
-Task 3:
+[gist.github.com/curran](https://gist.github.com/curran/a08a1080b88344b0c8a7)
+
+[numpy review](https://ds100.org/fa17/assets/notebooks/numpy/Numpy_Review.html)
+
+#### Task 3:
 
 [numpy.mean](https://numpy.org/doc/stable/reference/generated/numpy.mean.html)
 
@@ -85,11 +92,15 @@ Task 3:
 
 [numpy.median](https://numpy.org/doc/stable/reference/generated/numpy.median.html)
 
+[Mean, Wikipedia](https://ds100.org/fa17/assets/notebooks/numpy/Numpy_Review.html)
+
+[Maximum and Minimum, Wikipedia](https://en.wikipedia.org/wiki/Maximum_and_minimum)
+
 [How to Calculate Standard Deviation (Guide) | Calculator & Examples](https://www.scribbr.com/statistics/standard-deviation/#:~:text=The%20standard%20deviation%20is%20the,clustered%20close%20to%20the%20mean.)
 
 [Median in Statistics](https://www.geeksforgeeks.org/median/)
 
-Task 4: 
+#### Task 4: 
 
 [Pyplot vs Object Oriented Interface](https://matplotlib.org/matplotblog/posts/pyplot-vs-object-oriented-interface/)
 
@@ -107,7 +118,9 @@ Task 4:
 
 [matplotlib.axes.Axes.set_xticks](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks)
 
-Task 5: 
+#### Task 5: 
+
+[Matplotlib essentials](https://medium.com/@The_Gambitier/matplotlib-essentials-e376ed954201)
 
 [matplotlib.pyplot.scatter](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
 
@@ -117,27 +130,31 @@ Task 5:
 
 [OpenAI chatGPT](https://chatgpt.com/share/67f2c42b-a108-800f-9b47-c15d529b5264)
 
-Task 6: 
+#### Task 6: 
+
+[Simple Linear regression, Wikipedia](https://en.wikipedia.org/wiki/Simple_linear_regression)
+
+[Slope and Intercept, W3School](https://www.w3schools.com/datascience/ds_linear_slope.asp)
+
+[Slope and intercept of the regression line, Minitab](https://support.minitab.com/en-us/minitab/help-and-how-to/statistical-modeling/regression/supporting-topics/basics/slope-and-intercept-of-the-regression-line/)
 
 [numpy.polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
 
-Task 7: 
+#### Task 7: 
 
-[https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/](https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/)
+[Box plot and Histogram exploration on Iris data](https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/)
 
 [Selecting rows in pandas DataFrame based on conditions](https://www.geeksforgeeks.org/selecting-rows-in-pandas-dataframe-based-on-conditions/)
 
-[gist.github.com/curran](https://gist.github.com/curran/a08a1080b88344b0c8a7)
-
 [numpy.quantile](https://numpy.org/doc/stable/reference/generated/numpy.quantile.html)
 
-Task 8: 
+#### Task 8: 
 
-[Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+[Pearson correlation coefficient, Wikipedia](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 
-[Correlation Coefficient | Types, Formulas & Examples](https://www.scribbr.com/statistics/correlation-coefficient/#:~:text=A%20correlation%20coefficient%20is%20a,variables%20are%20across%20a%20dataset)
+[Correlation Coefficient | Types, Formulas & Examples, Scribbr](https://www.scribbr.com/statistics/correlation-coefficient/#:~:text=A%20correlation%20coefficient%20is%20a,variables%20are%20across%20a%20dataset)
 
-[NumPy, SciPy, Pandas, correlation](https://realpython.com/numpy-scipy-pandas-correlation-python/#linear-correlation)
+[NumPy, SciPy, Pandas, correlation, Real Python](https://realpython.com/numpy-scipy-pandas-correlation-python/#linear-correlation)
 
 [numpy.corcoeff](https://numpy.org/doc/2.2/reference/generated/numpy.corrcoef.html)
 
@@ -149,7 +166,7 @@ Task 8:
 
 [Linear correlation](https://realpython.com/numpy-scipy-pandas-correlation-python/#linear-correlation)
 
-Task 9: 
+#### Task 9: 
 
 [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination)
 
@@ -157,7 +174,7 @@ Task 9:
 
 [Writing Mathematic Fomulars in Markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)
 
-Task 10: 
+#### Task 10: 
 
 [seaborn.pairplot](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
