@@ -183,7 +183,7 @@ Plotting a pairplot with Seaborn to represent the correlation that each feature 
 [Indexing and selecting data](https://pandas.pydata.org/docs/user_guide/indexing.html)
 
 
-#### Extra: Some shortcuts to run the notebooks on Jupyter notebooks 
+### Extra: Some shortcuts to run the notebooks on Jupyter notebooks 
 
 **Some shortcuts**
 - render markdown cell: shift + enter | run code cell: shift + enter 
@@ -194,10 +194,3 @@ Plotting a pairplot with Seaborn to represent the correlation that each feature 
 - turn code cell in md cell: M
 - turn md cell in code cell: Y
 - fn + F1 to add shortcuts 
-
-
-### TODO 
-
-- How users can get started with the project
-- Links to documentation. Where users can get help with your project
-- Who maintains and contributes to the project
